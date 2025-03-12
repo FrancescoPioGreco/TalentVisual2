@@ -1,19 +1,53 @@
 .navbar {
   background: linear-gradient(to left, #EC9F05, #FF4E00);
+  padding: 0.5rem 1rem;
 }
 
+/* Logo */
 .navbar-brand {
-  padding-left: 2rem;
   font-weight: bold;
   font-size: 25px;
   color: white;
 }
 
+/* Input di ricerca */
+.search-container {
+  width: 30rem;
+}
+
+.input-group {
+  width: 30%;
+}
+
+/* Pulsante dropdown */
 .btn {
-  padding-right: 2rem;
   font-weight: bold;
   font-size: 25px;
   color: white;
 }
 
+/* Responsività */
+@media (max-width: 992px) {
+  .search-container {
+    width: 20rem;
+  }
+}
 
+@media (max-width: 768px) {
+  .search-container {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  .d-flex.align-items-center.gap-3 {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

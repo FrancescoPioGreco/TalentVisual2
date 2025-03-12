@@ -1,0 +1,13 @@
+{
+  "players": [{
+    "id": 1,
+    "name": "Emanuel",
+    "surname": "Emegha",
+    "nation": "<i class='netherlands flag'></i>",
+    "age": 22,
+    "team": "Strasbourg",
+    "role": "ST"
+  }
+    
+  ]
+}

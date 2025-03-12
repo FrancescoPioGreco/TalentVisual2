@@ -1,18 +1,97 @@
 h1 {
   color: white;
-  font-size: 50px;
+  font-size: 3rem;
   text-align: center;
   padding: 2rem;
 }
 
 .container {
   border: 2px solid #EC9F05;
-  padding: 30px;
+  padding: 2rem;
+  max-width: 90%;
+  margin: auto;
 }
 
-.group {
-  padding: 10px;
+.bg {
+  padding: 0.7rem;
+  background-color: #373737;
+  border-radius: 15px;
+}
+
+nav {
+  background: linear-gradient(to left, #EC9F05, #FF4E00);
   display: flex;
-  flex: 1;
   justify-content: space-between;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+
+.list-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: #519872;
+  color: white;
+  border-radius: 15px;
+  width: auto;
+  min-width: 80px;
+}
+
+.card {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+/* --- RESPONSIVE DESIGN --- */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  nav {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .list-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
