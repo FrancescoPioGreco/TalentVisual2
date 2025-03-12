@@ -1,0 +1,19 @@
+.navbar {
+  background: linear-gradient(to left, #EC9F05, #FF4E00);
+}
+
+.navbar-brand {
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.btn {
+  padding-right: 2rem;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+

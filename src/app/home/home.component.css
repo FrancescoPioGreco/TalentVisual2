@@ -1,0 +1,18 @@
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  border: 2px solid #EC9F05;
+  padding: 30px;
+}
+
+.group {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
